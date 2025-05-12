@@ -1,0 +1,169 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    box-shadow: 0 0 20px hsl(0, 0%, 80%);
+    margin: 50px auto;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding: 8px 0;
+    margin-top: 25px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Paragraphs */
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 50%);
+    padding: 8px 0;
+}
+
+/* Preparation Time */
+.Preparation-time {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Preparation-time ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.Preparation-time span {
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    padding: 8px 0;
+}
+
+.Preparation-time li {
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+/* Ingredients */
+.Ingredients {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-position: inside;
+}
+
+.Ingredients .title {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding: 8px 0;
+    margin-bottom: 40px;
+}
+
+.Ingredients li {
+    padding: 5px;
+}
+
+/* Instructions */
+.Insrutions {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin: 8px 0;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.Insrutions .title {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+    padding: 8px 0;
+}
+
+.Insrutions span {
+    padding-right: 10px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.Insrutions li {
+    padding: 5px 0;
+}
+
+/* Calories */
+.calories p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+}
+
+.calories span {
+    font-size: 15px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+/* Horizontal Rule */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: hsl(0, 37%, 97%);
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}
